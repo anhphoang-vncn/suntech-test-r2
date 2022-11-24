@@ -1,0 +1,10 @@
+.input-form {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.input-containers {
+    margin: 1rem;
+}

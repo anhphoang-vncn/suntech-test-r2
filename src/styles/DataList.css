@@ -1,0 +1,8 @@
+.data-list {
+    /* border: 1px solid red; */
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(3, minmax(250px, 1fr));
+    margin-bottom: 2rem;
+    justify-content: center;
+}

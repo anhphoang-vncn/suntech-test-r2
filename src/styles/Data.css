@@ -1,0 +1,35 @@
+.data {
+    /* border: 1px solid green; */
+    background-color: #f1f2f6;
+    border-radius: 10px;
+    padding: 1rem;
+    min-height: 70px;
+    display: flex;
+    position: relative;
+}
+
+.hover-button .hover-button--on,
+.hover-button:hover .hover-button--off {
+    display: none;
+}
+
+.hover-button:hover .hover-button--on {
+    display: inline;
+}
+
+.btn-edit {
+    /* border: 1px solid orange; */
+    height: 35px;
+    width: 50px;
+    position: absolute;
+    right: 10px;
+}
+
+.btn-delete {
+    /* border: 1px solid red; */
+    height: 35px;
+    width: 50px;
+    position: absolute;
+    right: 10px;
+    margin-top: 35px;
+}
