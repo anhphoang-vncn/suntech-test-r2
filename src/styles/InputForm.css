@@ -2,9 +2,23 @@
     /* border: 1px solid red; */
     display: flex;
     justify-content: center;
+    align-items: center;
+    position: relative;
     margin-bottom: 2rem;
 }
 
 .input-containers {
     margin: 1rem;
+}
+
+.input-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-add {
+    display: flex;
+    position: relative;
+    min-width: 5rem;
+    margin-left: 1rem;
 }

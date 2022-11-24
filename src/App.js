@@ -1,23 +1,22 @@
 import './App.css';
 import { useState } from 'react';
-import { nanoid } from 'nanoid';
 import InputForm from './components/InputForm'
 import DataList from './components/DataList'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
+
   const [data, setData] = useState([
     {
-      id: nanoid,
-      maso: 'Mã số',
+      id: "XXXXXXXXXXXXXXXXX",
       hoten: 'Họ tên',
       namsinh: 'Năm sinh'
     }
   ]);
 
-  const addData = (maso, hoten, namsinh) => {
+  const addData = (id, hoten, namsinh) => {
     const newData = {
-      id: nanoid(),
-      maso: maso,
+      id: id,
       hoten: hoten,
       namsinh: namsinh
     }
